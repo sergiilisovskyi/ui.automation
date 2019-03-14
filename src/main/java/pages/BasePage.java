@@ -1,4 +1,4 @@
-package framework.pages;
+package pages;
 
 import java.util.logging.Logger;
 
