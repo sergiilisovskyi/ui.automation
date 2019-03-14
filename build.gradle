@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'automation.training'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    seleniumVersion = '3.8.1'
+    testngVersion = '6.9.10'
+}
+
+dependencies {
+    // Selenium
+    compile "org.seleniumhq.selenium:selenium-server:$seleniumVersion"
+
+    // TestNG
+    compile "org.testng:testng:jar:$testngVersion"
+
+}
