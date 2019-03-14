@@ -1,0 +1,38 @@
+#trash specific files
+.DS_Store
+gebReports
+out
+build
+allure-results
+.allure
+/logs/
+ui.automation.iml
+
+#idea specific
+!/.idea/codeStyles/
+.idea/**/workspace.xml
+.idea/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/contentModel.xml
+.idea/modules.xml
+.idea/*.iml
+.idea/modules
+.idea/runConfigurations/
+.idea/.name
+.idea/misc.xml
+.idea/vcs.xml
+.idea/uiDesigner.xml
+.idea/checkstyle-idea.xml
+.idea/**/libraries
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/jarRepositories.xml
+
+#gradle specific
+.gradle
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+.idea/**/gradle.xml
